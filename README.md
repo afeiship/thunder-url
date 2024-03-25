@@ -13,14 +13,17 @@ npm install @jswork/thunder-url
 
 ## usage
 ```js
-import thunderUrl from '@jswork/thunder-url';
+import ThunderUrl from '@jswork/thunder-url';
 
 // usage goes here.
-```
+// encode:
+const url = 'https://www.baidu.com';
+const thunderUrl = ThunderUrl.encode(url);
+console.log(thunderUrl);
 
-## types
-```ts
-/// <reference types="@jswork/thunder-url/global.d.ts" />
+// decode:
+const url2 = ThunderUrl.decode(thunderUrl);
+console.log(url2);
 ```
 
 ## license
