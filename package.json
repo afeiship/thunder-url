@@ -1,6 +1,6 @@
 {
   "name": "@jswork/thunder-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Download url to thunder url.",
   "main": "dist/index.cjs.js",
@@ -15,6 +15,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@jswork/next": "^1.2.2",
     "@jswork/rollup-banner": "^1.0.1",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.6",
@@ -34,5 +35,6 @@
   },
   "dependencies": {
     "js-base64": "^3.7.7"
-  }
+  },
+  "keywords": []
 }
