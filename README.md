@@ -15,7 +15,6 @@ npm install @jswork/thunder-url
 ```js
 import ThunderURL from '@jswork/thunder-url';
 
-// usage goes here.
 // encode:
 const url = 'https://www.baidu.com';
 const thunderUrl = ThunderURL.encode(url);
